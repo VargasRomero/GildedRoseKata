@@ -19,4 +19,12 @@ public class ReducirCalidad {
             CalidadMenora50(item);
         }
     }
+
+
+public void CalidadMenora50(Item item) {
+    if (item.getQuality() < 50) {
+    	qualityMethods.AumentarCalidad1(item);
+    }
 }
+}
+

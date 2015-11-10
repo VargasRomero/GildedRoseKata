@@ -13,7 +13,7 @@ public class GilderCodigoPrincipal {
 
 			if (!item.getName().equals("Aged Brie")
 					&& !item.getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
-				reducir.ReducirCalidad(item);///Llamar metodos de la clase QualityMethods para ahorrar codigo y no repetir
+				reducir.ReducirCalidad(item);///Llamar metodos de la clase  reducir calidad para ahorrar codigo y no repetir
 			} else {
 				
 				if (item.getQuality() < 50) {
