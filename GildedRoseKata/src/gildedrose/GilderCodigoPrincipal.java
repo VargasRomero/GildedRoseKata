@@ -15,6 +15,7 @@ public class GilderCodigoPrincipal {
 					&& !item.getName().equals("Backstage passes to a TAFKAL80ETC concert")) {
 				reducir.ReducirCalidad(item);///Llamar metodos de la clase QualityMethods para ahorrar codigo y no repetir
 			} else {
+				
 				if (item.getQuality() < 50) {
 					metodosdecalidad.AumentarCalidad1(item);
 			
@@ -27,6 +28,7 @@ public class GilderCodigoPrincipal {
 			
 			if (item.getName() != "Sulfuras, Hand of Ragnaros") {
 				metodosdecalidad.ObtenerShellmenor1(item);
+			
 			}
 
 			if (item.getSellIn() < 0) {
