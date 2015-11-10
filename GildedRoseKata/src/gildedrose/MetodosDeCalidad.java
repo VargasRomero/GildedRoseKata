@@ -2,7 +2,7 @@ package gildedrose;
 
 
 
-public class MetodosDecCalidad { 
+public class MetodosDeCalidad { 
 	
 
 	

@@ -3,7 +3,7 @@ package gildedrose;
 import java.util.List;
 
 public class GilderCodigoPrincipal {
-	MetodosDecCalidad metodosdecalidad = new MetodosDecCalidad(); ///instancia de clase qualitymethods
+	MetodosDeCalidad metodosdecalidad = new MetodosDeCalidad(); ///instancia de clase qualitymethods
     ReducirCalidad reducir = new ReducirCalidad();//Intastancia de tres metodos para reducir calidad.
 	
 

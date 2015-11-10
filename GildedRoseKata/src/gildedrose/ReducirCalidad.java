@@ -1,7 +1,7 @@
 package gildedrose;
 //Tres metodos de calidad
 public class ReducirCalidad {
-	MetodosDecCalidad qualityMethods = new MetodosDecCalidad(); ///Instance of the class QualitySource
+	MetodosDeCalidad qualityMethods = new MetodosDeCalidad(); ///Instance of the class QualitySource
 	
     public void ReducirCalidad(Item item) {
         if (item.getQuality() > 0) {
@@ -14,5 +14,9 @@ public class ReducirCalidad {
             }
         }
     }
-    
+    public void Reducir(Item item, int x) {
+        if (item.getSellIn() < x) {
+            CalidadMenora50(item);
+        }
+    }
 }
